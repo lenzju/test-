@@ -59,7 +59,7 @@ def calculate_average(grades: list[float]) -> float | None:
 def get_fun_fact(avg: float) -> str:
     """Gibt einen motivierenden Hinweis basierend auf dem Durchschnitt zurück."""
     if avg >= 13:
-        return "🌟 Starke Leistung! Das ist fast schon Einser-Niveau."
+        return "🌟 Starke Leistung! Das ist Einser-Niveau!"
     elif avg >= 10:
         return "💪 Sehr gut! Du bist klar über dem Durchschnitt."
     elif avg >= 7:
